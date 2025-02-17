@@ -1,24 +1,26 @@
 [project]
-name = "EasyDiffraction"
-description = "Diffraction data analysis"
+name = 'EasyDiffraction'
+description = 'Diffraction data analysis'
 year = 2026
 
-[repos]
-hub = "diffraction"
-lib = "diffraction-lib"
-app = "diffraction-app"
+[project.repos]
+hub = 'diffraction'
+lib = 'diffraction-lib'
+app = 'diffraction-app'
 
-[urls]
-hub = "https://easydiffraction.org"
-lib_docs = "https://docs.easydiffraction.org/lib"
-app_doc = "https://docs.easydiffraction.org/app"
+[project.urls]
+hub = 'https://easydiffraction.org'
+lib_docs = 'https://docs.easydiffraction.org/lib'
+app_docs = 'https://docs.easydiffraction.org/app'
 
 [lib]
-package_name = "easydiffraction"
-min_python = 3.9
-max_python = 3.12
+name = 'easydiffraction'
 
-[app.qtifw.setup]
+[lib.python]
+min = '3.9'
+max = '3.12'
+
+[app.installer]
 version = '4.7.0'
 https_mirrors = ['qt.mirror.constant.com', 'ftp.fau.de/qtproject', 'mirrors.dotsrc.org/qtproject']
 base_path = 'official_releases/qt-installer-framework'
