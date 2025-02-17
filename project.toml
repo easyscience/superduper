@@ -1,7 +1,7 @@
 [project]
 name = 'EasyDiffraction'
 description = 'Diffraction data analysis'
-year = 2026
+year = 2024
 
 [project.repos]
 hub = 'diffraction'
